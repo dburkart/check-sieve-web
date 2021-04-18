@@ -6,16 +6,17 @@
     <link rel="stylesheet" href="style/main.css"/>
 </head>
 <body>
-        <div id="toolbar">
-            <button onclick="checkSyntax()">Check Sieve</button>
-        </div>
-        <div style="display: flex; flex-flow: row wrap; max-height: calc(100vh - 2rem); overflow: scroll;">
-            <div id="gutter"></div>
-            <textarea id="editor" spellcheck="false"></textarea>
-        </div>
-    <script src="vendor/web_checksieve.js"></script>
+    <div id="toolbar">
+      <button onclick="checkSyntax()">Check Sieve</button>
+    </div>
+    <div style="display: flex; flex-flow: row wrap; max-height: calc(100vh - 2rem); overflow: scroll;">
+      <div id="gutter"></div>
+      <textarea id="editor" spellcheck="false"></textarea>
+    </div>
 
     <script src="js/gutter.js"></script>
     <script src="js/main.js"></script>
+
+    <script src="vendor/web_checksieve.js"></script>
 </body>
 </html>
