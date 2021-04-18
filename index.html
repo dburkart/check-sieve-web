@@ -1,88 +1,11 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-    </head>
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="style/main.css"/>
+</head>
 <body>
-<style>
-html, body {
-    margin: 0;
-    padding: 0;
-    min-height: 100vh;
-    font-family: "mono";
-    font-size: 1em;
-    overflow-y: hidden;
-}
-
-div {
-    margin: 0;
-    padding: 0;
-}
-
-#toolbar {
-    width: 100%;
-    height: 2rem;
-    padding: .4rem;
-    border-bottom: solid #c4c4c4 1px;
-}
-
-#gutter {
-    min-height: calc(100vh - 2rem);
-    font-family: "mono";
-    padding-top: .2rem;
-    display: flex;
-    flex-flow: column wrap;
-    padding-left: .5ch;
-    padding-right: .5ch;
-    border-right: solid #c4c4c4 1px;
-    background-color: #e6e6e6;
-}
-
-#gutter > div {
-    color: #6a6a6a;
-}
-
-#editor {
-    width: calc(100% - 1rem);
-    display: inline-flex;
-    font-family: "mono";
-    padding-top: .1rem;
-    padding-left: .5ch;
-    resize: none;
-    overflow: hidden;
-    flex: 1;
-    border: 0;
-    color: #393939;
-    min-height: calc(100vh - 2rem);
-}
-
-#editor:focus {
-    outline: none;
-}
-
-.error {
-    background-color: #ffc9c9;
-    padding: 0;
-    margin: 0;
-}
-
-.success {
-    background-color: #b1f4c8;
-}
-
-.notice {
-    background-color: #dfdfdf;
-    padding: 2rem;
-}
-
-.popover {
-    z-index: 10;
-    position: absolute;
-    border-radius: .25rem;
-    opacity: 1;
-    font-family: "mono";
-}
-</style>
         <div id="toolbar">
             <button onclick="checkSyntax()">Check Sieve</button>
         </div>
