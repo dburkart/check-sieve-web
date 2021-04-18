@@ -1,6 +1,6 @@
 ### Check your mail sieve in your browser
 
-You can see a live demo (hosted on Githubof this here: [https://checksieve.com](https://checksieve.com)
+You can see a live demo (hosted on GitHub Pages) here: [https://checksieve.com](https://checksieve.com)
 
 This project uses the [check-sieve](https://github.com/dburkart/check-sieve) library compiled down to WebAssembly to check sieve syntax entirely in your browser (no servers involved!).
 
