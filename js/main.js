@@ -17,6 +17,8 @@ var Module = {
 
             popover.style.top = "50%";
             popover.style.left = "calc(50% - " + (popover.offsetWidth / 2) + "px)";
+            
+            document.getElementById("check-sieve-version").textContent = Module.version();
         }
     }
 }
@@ -56,6 +58,7 @@ var checkSyntax = function() {
 
         popover.style.left = column.toString() + "ch";
         popover.style.top = lineY + "px";
+        popover.style.padding = ".25rem";
     } else {
         var popover = document.createElement("div");
         popover.classList.add("popover");
