@@ -7,7 +7,7 @@ This project uses the [check-sieve](https://github.com/dburkart/check-sieve) lib
 #### Run it locally
 
 ```
-python -m SimpleHTTPServer 8080
+python -m http.server 8080
 ```
 
 You can now navigate to [localhost:8080](http://localhost:8080/) and check your sieve in your browser!
